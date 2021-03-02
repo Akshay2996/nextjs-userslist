@@ -1,7 +1,8 @@
 import Head from "next/head";
 import styles from "../../styles/Users.module.css";
+import Link from "next/link";
 
-// This function runs at buildtime
+// This function runs at buildtime & fetches the data
 export const getStaticProps = async () => {
 	const res = await fetch("https://jsonplaceholder.typicode.com/users");
 	const data = await res.json();

@@ -12,8 +12,8 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>HomePage</h1>
         <p className={styles.text}>
-          Welcome to the Basic NextJS project which uses Fake Rest API of users
-          from{" "}
+          Welcome to the Basic NextJS project which uses <b>Fake Rest API</b> of
+          users from{" "}
           <b>
             <a
               href="https://jsonplaceholder.typicode.com/"

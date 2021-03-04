@@ -35,7 +35,7 @@ const About = () => {
             <b>Portfolio</b>
           </a>
         </h3>
-        <h4add .About className={styles.title}>
+        <h4 className={styles.title}>
           Follow me on{" "}
           <a
             href="https://twitter.com/AkshayS2909"
@@ -44,7 +44,7 @@ const About = () => {
           >
             Twitter
           </a>
-        </h4add>
+        </h4>
       </div>
     </>
   );
